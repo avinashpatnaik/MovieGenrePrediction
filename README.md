@@ -23,6 +23,4 @@ Procedure:
 8.	We repeat the steps 3 to 7 for the test data as well. 
 9.	We treat this multilabel classification problem as combination of 20 different binary classification problems training over each genre individually. These trained models for each genre are used to predict the genre level output labels for that test data. 
 10.	We join all the predictions into test dataframe using inner join. 
-11.	We use the SQL command to combine the multiple predictions columns into the desired format. 
-12.	Doing some basic formatting to make a submission ready csv. 
-
+11.	We use the SQL command to combine the multiple predictions columns into the desired format which is in csv format. 
